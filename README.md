@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# Highlander Gaming Website
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -11,7 +11,7 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[Highlander Gaming Figma Design File](https://www.figma.com/file/AF6AdslHuzkzUe6qDgcJx9/HLG?type=design&node-id=67%3A513&mode=design&t=StU9SIPD3sfmzNiZ-1)
 
 ## Node.js
 
