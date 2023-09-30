@@ -1,7 +1,9 @@
-import Navigation from "@/components/Navigation";
+import React from 'react'
 
 const Staff = () => {
-  return <Navigation />;
-};
+  return (
+    <div>Staff</div>
+  )
+}
 
-export default Staff;
+export default Staff
