@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 
 const Staff = () => {
-	return <Navigation />;
+  return <Navigation />;
 };
 
 export default Staff;

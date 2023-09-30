@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const HomeHeader = () => {
-  return (
-    <div>HomeHeader</div>
-  )
-}
+  return <div>HomeHeader</div>;
+};
 
-export default HomeHeader
+export default HomeHeader;
