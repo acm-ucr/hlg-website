@@ -1,6 +1,6 @@
 import Banner from "@/components/Banner";
 
-const about = () => {
+const team = () => {
 	return (
 		<div>
 			<Banner />
@@ -8,4 +8,4 @@ const about = () => {
 	);
 };
 
-export default about;
+export default team;
