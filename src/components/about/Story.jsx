@@ -1,7 +1,5 @@
 const Story = () => {
-  return (
-    <div>Story</div>
-  )
-}
+  return <div>Story</div>;
+};
 
-export default Story
+export default Story;

@@ -1,7 +1,5 @@
 const Who = () => {
-  return (
-    <div>Who</div>
-  )
-}
+  return <div>Who</div>;
+};
 
-export default Who
+export default Who;
