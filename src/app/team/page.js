@@ -1,6 +1,6 @@
 import Banner from "@/components/Banner";
 
-const staff = () => {
+const team = () => {
   return (
     <div>
       <Banner />
@@ -8,4 +8,4 @@ const staff = () => {
   );
 };
 
-export default staff;
+export default team;

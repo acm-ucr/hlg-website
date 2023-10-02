@@ -1,7 +1,11 @@
-import React from "react";
+import Banner from "@/components/Banner";
 
 const events = () => {
-  return <div>events</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 };
 
 export default events;
