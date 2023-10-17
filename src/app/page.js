@@ -10,9 +10,10 @@ const home = () => {
           month="JAN"
           day="31"
           time="25AM"
+          title="I am title"
           Event="Is there 25AM"
           description="yes there is, also exist Jan32"
-          color="bg-blue-500"
+          color="bg-hlg-purple"
         />
       </div>
 
