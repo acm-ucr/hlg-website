@@ -1,5 +1,7 @@
-const Heading = () => {
-  return <div>Heading</div>;
+const Heading = ({imagelink}) => {
+  return (
+    <img src={imagelink}/>
+  );
 };
 
 export default Heading;
