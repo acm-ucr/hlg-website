@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const error = () => {
   return (
     <div className=" flex flex-col my-20 items-center">
@@ -7,14 +9,14 @@ const error = () => {
 
       <p className=" text-hlg-orange text-center text-3xl"> Page Not Found </p>
 
-      <a
-        href="/"
+      <Link
+        href=""
         className="text-hlg-blue-300 text-center text-2xl border border-hlg-gray rounded p-2"
         style={{ textDecoration: "none" }}
       >
         {" "}
         Back To Home Page{" "}
-      </a>
+      </Link>
     </div>
   );
 };
