@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import Graves from "public/team/graves.png";
 
 const Teammate = () => {
   return (
     <div className="bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
       <div className="flex">
         <Image
-          src="team/graves.png" // Path to your image inside the 'public' directory
+          src={Graves} // Path to your image inside the 'public' directory
           alt="Graves Image"
-          width={500} // Desired width of the image
-          height={300} // Desired height of the image
         />
 
         <div className="mt-10 ml-10">
@@ -19,7 +18,7 @@ const Teammate = () => {
               <p>Nguyen</p>
             </div>
           </div>
-          <div className="mb-7 text-hlg-white p-3 leading-3">
+          <div className="mb-7 text-hlg-white p-3 leading-5">
             <p>YEAR: 3</p>
             <p>POSITION: JG</p>
           </div>
