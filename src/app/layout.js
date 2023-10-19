@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
-  weight: ["100", "200"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-montserrat",
 });
 export const metadata = {
