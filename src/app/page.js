@@ -1,5 +1,4 @@
 import Landing from "@/components/home/Landing";
-
 const home = () => {
   return (
     <div>
