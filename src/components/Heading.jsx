@@ -13,7 +13,7 @@ const Heading = ({ text }) => {
       <div className="flex">
         <div className="px-10"></div>
         <div className="px-4"></div>
-        <div className="bg-orange-500 px-4 py-1"> </div>
+        <div className="bg-orange-500 px-4 py-1 rounded-md"> </div>
       </div>
     </div>
   );
