@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div>
       <Banner />
-      <Heading text="Join HLG@UCR"/>
+      <Heading text="Join HLG@UCR" />
     </div>
   );
 };
