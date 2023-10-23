@@ -8,6 +8,7 @@ const Heading = ({ text }) => {
           <Image src={photo} />
         </div>
         <h2 className="">{text}</h2>
+        
       </div>
 
       <div className="flex">
