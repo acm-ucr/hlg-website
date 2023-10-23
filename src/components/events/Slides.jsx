@@ -12,7 +12,7 @@ const Slides = () => {
 
         <div className="center section">
           <div className="text-lg pt-4 ">
-            <p className = "m-0 p-0">Event Name</p>
+            <p className="m-0 p-0">Event Name</p>
           </div>
           <Image
             src={eventPicture} // Path to your image inside the 'public' directory
