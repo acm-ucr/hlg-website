@@ -18,7 +18,7 @@ const Teammate = () => {
               <p>Nguyen</p>
             </div>
           </div>
-          <div className="mb-7 text-hlg-white p-3 leading-5">
+          <div className="mb-7 text-hlg-white leading-5 m-0 p-1">
             <p>YEAR: 3</p>
             <p>POSITION: JG</p>
           </div>
