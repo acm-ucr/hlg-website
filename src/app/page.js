@@ -1,9 +1,9 @@
-import Landing from "@/components/home/Landing";
+import Button from "@/components/Button";
 
 const home = () => {
   return (
     <div>
-      <Landing />
+      <Button />
     </div>
   );
 };
