@@ -7,7 +7,7 @@ const Who = () => {
       <div className="flex flex-col w-screen">
         <div className="flex flex-row border-4 border-yellow-500 w-full h-96 justify-start">
           {/* left side */}
-          {/*Note: The left-20, top-10 need to have breakpoints used on it */}
+          {/* Note: The left-20, top-10 need to have breakpoints used on it */}
           <div className="relative border-green-500 border-4 w-6/12 h-1/2 basis-1/2">
             <Image
               src={photo}
