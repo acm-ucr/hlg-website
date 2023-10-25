@@ -5,25 +5,25 @@ const Who = () => {
   return (
     <div>
       <div className="flex flex-col w-screen">
-        <div className="flex flex-row border-4 border-yellow-500 w-full h-96 justify-start">
+        <div className="flex flex-row w-full h-96 justify-start">
           {/* left side */}
           {/* Note: The left-20, top-10 need to have breakpoints used on it */}
-          <div className="relative border-green-500 border-4 w-6/12 h-1/2 basis-1/2">
+          <div className="relative w-6/12 h-1/2 basis-1/2">
             <Image
               src={photo}
-              className="absolute left-16 top-10 rounded-3xl bg-blue-500 z-20"
+              className="absolute left-16 top-10 rounded-3xl  z-20"
             />
             <div
-              className="absolute top-3 left-10 bg-blue-500 rounded-3xl z-10 h-72"
+              className="absolute top-3 left-10  rounded-3xl z-10 h-72 bg-gray-300"
               style={{ width: "430px" }}
             ></div>
           </div>
 
           {/* gap in middle*/}
-          <div className="bg-red-500 p-4"></div>
+          <div className=" p-4"></div>
 
           {/* right side*/}
-          <div className="flex flex-col gap-5 border-4 border-blue-500 basis-1/2">
+          <div className="flex flex-col gap-5 basis-1/2  items-center">
             <Heading text={"WHO WE ARE"} />
             <p className="text-start m-0 p-0 max-w-sm">
               Founded in April 2012, Highlander Gaming is a social club at the
@@ -35,8 +35,8 @@ const Who = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center pt-10 border-5 border-sky-500">
-        <div className="rounded-3xl bg-blue-500 px-5 py-3">
+      <div className="flex flex-row justify-center pt-10  ">
+        <div className="rounded-3xl bg-gray-200 px-5 py-3">
           <div className="flex flex-col items-center">
             <div className="rounded-lg ">
               Through Highlander Gaming, we hope to create a strong community
