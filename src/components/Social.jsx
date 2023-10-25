@@ -2,10 +2,7 @@ import { FaDiscord } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <div
-      className="relative rounded-2xl bg-hlg-white p-5 text-center"
-      style={{ width: "150px", height: "160px" }}
-    >
+    <div className="rounded-2xl bg-hlg-white p-5 text-center w-40 h-40">
       <div className="flex flex-col items-center">
         <FaDiscord size={50} className="text-hlg-blue-300 mt-[-25px] mb-2" />{" "}
         {/* Replace with other social icon */}
