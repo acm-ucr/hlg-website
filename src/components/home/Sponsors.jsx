@@ -20,61 +20,35 @@ const Sponsors = () => {
       <p className="text-hlg-black ">Previously Sponsored By</p>
       <div className="flex flex-row space-x-20">
         <div className="flex flex-col">
-          <div className="py-4">
-            <Image src={Msi} className="" />
-          </div>
+          <Image src={Msi} className="mb-10" />
 
-          <div className="">
-            <Image src={Corsair} className="" />
-          </div>
+          <Image src={Corsair} className="mb-10" />
 
-          <div className="flex ">
-            <Image src={Zotac} className="" />
-          </div>
+          <Image src={Zotac} className="mb-10" />
 
-          <div className="flex ">
-            <Image src={Spectre} className="" />
-          </div>
+          <Image src={Spectre} className="mb-10" />
+        </div>
+
+        <div className="flex flex-col ">
+          <Image src={Seasonic} className="mb-10" />
+
+          <Image src={TurtleBeach} className="mb-10" />
+
+          <Image src={RedBull} className="mb-10" />
+
+          <Image src={ClipStudio} className="mb-10" />
+
+          <Image src={WarnerBros} className="mb-10" />
         </div>
 
         <div className="flex flex-col">
-          <div className="flex ">
-            <Image src={Seasonic} className="" />
-          </div>
+          <Image src={Razor} className="mb-10" />
 
-          <div className="flex ">
-            <Image src={TurtleBeach} className="" />
-          </div>
+          <Image src={Gamdias} className="mb-10" />
 
-          <div className="flex ">
-            <Image src={RedBull} className="" />
-          </div>
+          <Image src={Roccat} className="mb-10" />
 
-          <div className="flex ">
-            <Image src={ClipStudio} className="" />
-          </div>
-
-          <div className="flex ">
-            <Image src={WarnerBros} className="" />
-          </div>
-        </div>
-
-        <div className="flex flex-col">
-          <div className="flex ">
-            <Image src={Razor} className="" />
-          </div>
-
-          <div className="flex ">
-            <Image src={Gamdias} className="" />
-          </div>
-
-          <div className="flex ">
-            <Image src={Roccat} className="" />
-          </div>
-
-          <div className="flex ">
-            <Image src={EVGA} className="" />
-          </div>
+          <Image src={EVGA} className="mb-10" />
         </div>
       </div>
     </div>
