@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Teammate from "../components/team/Teammate";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         {children}
         <Footer />
+        <Teammate />
       </body>
     </html>
   );
