@@ -4,25 +4,23 @@ import Heading from "src/components/Heading.jsx";
 const Who = () => {
   return (
     <div className="flex flex-col justify-center">
-      <div className="flex flex-row w-full h-96 justify-center">
+      <div className="flex flex-row w-full h-96 justify-center border-4 border-red-500">
         {/* left side */}
-        {/* Note: The left-20, top-10 need to have breakpoints used on it */}
-        <div className="relative w-6/12 h-1/2 basis-5/12">
+        <div className="relative w-6/12 basis-5/12 border-4 border-green-500 inline-block">
           <Image
             src={photo}
-            className="absolute left-16 top-10 rounded-3xl shadow-md z-20"
+            className="absolute top-8 left-16 rounded-3xl shadow-md z-20 w-full h-8/12"
           />
-          <div
-            className="absolute top-3 left-10  rounded-3xl z-10 h-72 bg-gray-300"
-            style={{ width: "430px" }}
-          ></div>
+
+          {/* Will only display correctly with aspect-[1.5] AND w-full. If you take out the second part of aspect part, it won't work. I'm not sure why.*/}
+          <div className="absolute top-3 left-10 aspect-[1.5] w-full rounded-3xl z-10  bg-gray-300"></div>
         </div>
 
         {/* gap in middle*/}
-        <div className="p-4"></div>
+        <div className="p-4 bg-blue-500 basis-1/12"></div>
 
         {/* right side*/}
-        <div className="flex flex-col basis-5/12 justify-center gap-5">
+        <div className="flex flex-col basis-5/12 justify-center gap-5 border-gray-500 border-4">
           <Heading text={"WHO WE ARE"} />
           <p className="text-start m-0 p-0 max-w-sm">
             Founded in April 2012, Highlander Gaming is a social club at the
