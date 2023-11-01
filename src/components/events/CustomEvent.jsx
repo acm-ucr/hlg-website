@@ -6,7 +6,6 @@ const CustomEvent = ({ event }) => {
         {!event.allDay &&
           new Date(event.start).toLocaleTimeString(navigator.language, {
             hour: "2-digit",
-            // minute: "2-digit",
           })}
         &nbsp;
         {event.title}

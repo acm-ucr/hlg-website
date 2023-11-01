@@ -14,7 +14,6 @@ function getFilterById(id) {
 const localizer = momentLocalizer(moment);
 
 const CalendarEvent = ({ events }) => {
-  // const [event, setEvent] = useState(null);
   const [date, setDate] = useState(new Date());
 
   return (
@@ -37,7 +36,6 @@ const CalendarEvent = ({ events }) => {
           eventPropGetter={(event) => {
             return {
               className: `!${getFilterById(event.type).color} !rounded-none`,
-              // <p>what's wrong here. ! is useful.</p>
             };
           }}
           dayPropGetter={(event) => {

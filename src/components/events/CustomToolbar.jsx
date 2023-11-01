@@ -19,7 +19,7 @@ const CustomToolbar = (event) => {
   return (
     <div className="flex justify-center items-center w-full py-3 flex-col md:flex-row">
       <div className="md:w-1/3 flex gap-3 mb-2 md:mb-0">
-        &emsp;
+        &emsp;&emsp;&emsp;
         <p className="m-0 font-bold text-3xl">
           {monthNames[event.date.getMonth()]}
         </p>

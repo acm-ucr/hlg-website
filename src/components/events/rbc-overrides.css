@@ -1,14 +1,14 @@
-/*  */
-.rbc-header-row {
-  background-image: linear-gradient(to right, #b8f70a, #a5a5a5);
+.rbc-month-header {
+  background-image: linear-gradient(to right, #fb8500, #ffb703);
+}
+.rbc-off-range {
+  color: #15131e;
 }
 
-.rbc-header {
-  background-color: transparent;
+.rbc-date-cell.rbc-now {
+  font-weight: normal !important;
 }
-/* what hack ?? hlg-color not works */
 
-/* delete all the lines... no matter what */
 .rbc-calendar,
 .rbc-calendar *,
 .rbc-calendar *:before,
