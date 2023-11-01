@@ -31,7 +31,7 @@ const CustomToolbar = (event) => {
         {filters.map((filter, index) => (
           <Col key={index} xs={9} sm={3} className="p-1">
             <p
-              className={`${filter.color} whitespace-nowrap text-center text-sm md:text-base rounded-sm m-0`}
+              className={`${filter.color} whitespace-nowrap text-center text-sm md:text-base rounded-none m-0`}
             >
               {filter.topic}
             </p>

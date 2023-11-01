@@ -6,6 +6,7 @@ import CustomToolbar from "./CustomToolbar.jsx";
 import CustomEvent from "./CustomEvent.jsx";
 import moment from "moment";
 import filters from "@/data/filters.js";
+import "./rbc-overrides.css";
 function getFilterById(id) {
   return filters.find((filter) => filter.id === id);
 }
@@ -35,26 +36,16 @@ const CalendarEvent = ({ events }) => {
           }}
           eventPropGetter={(event) => {
             return {
-              className: `!${getFilterById(event.type).color}`,
+              className: `!${getFilterById(event.type).color} !rounded-none`,
+              // <p>what's wrong here. ! is useful.</p>
             };
           }}
           dayPropGetter={(event) => {
             const bg =
               new Date(event).toLocaleDateString() ==
               new Date().toLocaleDateString()
-                ? "!bg-opacity-40 !bg-asme-textshadow"
+                ? "!bg-hlg-blue-100"
                 : "!bg-transparent";
-
-            if ([6, 0].includes(date.getDay())) {
-              return {
-                className: `!bg-yellow-400`,
-                // Add your weekend styles here
-                style: {
-                  margin: 0,
-                  padding: 0,
-                },
-              };
-            }
 
             return {
               className: `${bg}`,

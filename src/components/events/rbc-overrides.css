@@ -1,0 +1,18 @@
+/*  */
+.rbc-header-row {
+  background-image: linear-gradient(to right, #b8f70a, #a5a5a5);
+}
+
+.rbc-header {
+  background-color: transparent;
+}
+/* what hack ?? hlg-color not works */
+
+/* delete all the lines... no matter what */
+.rbc-calendar,
+.rbc-calendar *,
+.rbc-calendar *:before,
+.rbc-calendar *:after {
+  border: none !important;
+  box-shadow: none !important;
+}
