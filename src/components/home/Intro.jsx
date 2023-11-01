@@ -17,7 +17,7 @@ const Who = () => {
         </div>
 
         {/* gap in middle*/}
-        <div className="p-4 bg-blue-500 basis-1/12"></div>
+        <div className="p-4 bg-blue-500 basis-20"></div>
 
         {/* right side*/}
         <div className="flex flex-col basis-5/12 justify-center gap-5 border-gray-500 border-4">
