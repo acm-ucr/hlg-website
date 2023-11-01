@@ -4,9 +4,9 @@ import Heading from "src/components/Heading.jsx";
 const Who = () => {
   return (
     <div className="flex flex-col justify-center">
-      <div className="flex flex-row w-full h-96 justify-center border-4 border-red-500">
+      <div className="flex flex-row w-full h-96 justify-center ">
         {/* left side */}
-        <div className="relative w-6/12 basis-5/12 border-4 border-green-500 inline-block">
+        <div className="relative w-6/12 basis-5/12 ">
           <Image
             src={photo}
             className="absolute top-8 left-16 rounded-3xl shadow-md z-20 w-full h-8/12"
@@ -17,10 +17,10 @@ const Who = () => {
         </div>
 
         {/* gap in middle*/}
-        <div className="p-4 bg-blue-500 basis-20"></div>
+        <div className="p-4  basis-24"></div>
 
         {/* right side*/}
-        <div className="flex flex-col basis-5/12 justify-center gap-5 border-gray-500 border-4">
+        <div className="flex flex-col basis-5/12 justify-center gap-5 ">
           <Heading text={"WHO WE ARE"} />
           <p className="text-start m-0 p-0 max-w-sm">
             Founded in April 2012, Highlander Gaming is a social club at the
@@ -31,19 +31,12 @@ const Who = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center pt-10  ">
-        <div className="rounded-3xl bg-gray-200 px-5 py-3">
-          <div className="flex flex-col items-center">
-            <div className="rounded-lg ">
-              Through Highlander Gaming, we hope to create a strong community
-              that <br />
-              dedicates itself to a competitive spirit, while maintaining a
-              strong sense of <br />
-            </div>
-            <div className="pb-0.25"></div>
-            <div className="rounded-lg">sportsmanship and social inclusion</div>
-          </div>
-        </div>
+      <div className="flex flex-row justify-center pt-10">
+        <p className="rounded-3xl bg-gray-200 w-1/2 p-8 text-center">
+          Through Highlander Gaming, we hope to create a strong community that
+          dedicates itself to a competitive spirit, while maintaining a strong
+          sense of sportsmanship and social inclusion
+        </p>
       </div>
     </div>
   );
