@@ -6,7 +6,7 @@ const Who = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="text-center mt-4">
-        <Heading text={"WHO WE ARE"} />
+        <Heading text={"Who We Are"} />
       </div>
 
       <div className="max-w-screen-md text-center mt-4">
