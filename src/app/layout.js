@@ -11,6 +11,7 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-montserrat",
 });
+
 export const metadata = {
   title: "HLG at UCR",
   description: "Highlander Gaming at UCR",
@@ -19,8 +20,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className}`}>
         <Navigation />
+        <div className="py-10" />
         {children}
         <Footer />
       </body>
