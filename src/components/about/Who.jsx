@@ -5,9 +5,9 @@ import Heading from "src/components/Heading.jsx";
 const Who = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="text-center mt-4">
-        <Heading text={"Who We Are"} />
-      </div>
+      <Heading text={"Who We Are"} />
+
+      <div className="py-2" />
 
       <div className="max-w-screen-md text-center mt-4">
         <p>

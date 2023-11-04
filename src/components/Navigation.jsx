@@ -14,7 +14,7 @@ const Navigation = () => {
       collapseOnSelect
       expand="md"
       fixed="top"
-      className="w-full m-0 md:h-[8vh] p-0 flex px-3 py-0 !bg-black/50 justify-between items-center backdrop-blur-md"
+      className="w-full m-0 md:h-[8vh] p-0 flex px-3 h-16 !bg-black/50 justify-between items-center backdrop-blur-md"
     >
       <Navbar.Brand>
         <Link
