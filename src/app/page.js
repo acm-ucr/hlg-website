@@ -1,16 +1,34 @@
+import Social from "@/components/Social";
 import Landing from "@/components/home/Landing";
+
+import { links } from "@/data/links";
+
 import Who from "@/components/home/Intro";
 import Sponsors from "@/components/home/Sponsors";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <Landing />
+
       <Who />
-      <div className="py-10" />
+
+      <div className="flex justify-center">
+        <div className="grid grid-cols-5 grid-rows-2 gap-4">
+          {links.map((linkData, index) => (
+            <Social
+              key={index}
+              name={linkData.text}
+              link={linkData.link}
+              icon={linkData.icon}
+            />
+          ))}
+        </div>
+      </div>
+
       <Sponsors />
     </div>
   );
 };
 
-export default home;
+export default Home;
