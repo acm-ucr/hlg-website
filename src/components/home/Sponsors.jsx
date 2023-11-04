@@ -13,10 +13,14 @@ import Spectre from "public/sponsors/spectre.png";
 import TurtleBeach from "public/sponsors/turtle-beach.png";
 import WarnerBros from "public/sponsors/warner-bros.png";
 import Zotac from "public/sponsors/zotac.png";
+import GenG from "public/sponsors/geng.png";
 
 const Sponsors = () => {
   return (
     <div className="flex flex-col justify-center items-center text-center text-lg ">
+      <p className="text-hlg-black ">Partnered with</p>
+      <Image src={GenG} className="" />
+      <div className="py-20"></div>
       <p className="text-hlg-black ">Previously Sponsored By</p>
       <div className="flex flex-row space-x-20">
         <div className="flex flex-col">
