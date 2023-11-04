@@ -4,8 +4,8 @@ import Heading from "@/components/Heading";
 
 const Story = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-60 space-y-16 text-center text-lg ">
-      <Heading />
+    <div className="flex flex-col justify-center items-center px-60 space-y-16 text-center text-base ">
+      <Heading text="Our Story" />
       <p className="text-hlg-black ">
         Highlanger Gaming began as &quot;Esports at UCR&quot; in 2012 with a
         small group of friends, focusing mostly on Blizzard&apos;s feature title
