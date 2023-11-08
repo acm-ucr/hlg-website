@@ -1,21 +1,22 @@
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
 import photo from "/Users/shiqizhou/hlg-website/public/awesome-cat-placeholder.png";
-import { IconContext } from "react-icons";
+// import { IconContext } from "react-icons";
 
-//icons here
+// icons here
 import { FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
-function discordIcon() {
-  return (
-    <IconContext.Provider value={{ color: "red" }}>
-      <FaDiscord className="w-full h-full" />
-    </IconContext.Provider>
-  );
-}
+// doesn't work: https://stackoverflow.com/questions/56636280/how-to-style-react-icons
+// function discordIcon() {
+//   return (
+//     <IconContext.Provider value={{ color: "red" }}>
+//       <FaDiscord className="w-full h-full" />
+//     </IconContext.Provider>
+//   );
+// }
 
-//displays a single staff element.
+// displays a single staff element.
 const Staff = ({
   posname,
   name,
@@ -40,12 +41,12 @@ const Staff = ({
 
       <div className="flex flex-row pl-8">
         <div className="h-5 w-7 pt-1">
-          <a href={discordlink} target="_blank">
+          <a href={discordlink} target="_blank noreferrer">
             <FaDiscord className="w-full h-full text-amber-400" />
           </a>
         </div>
         <div className="h-7 w-6 pb-1">
-          <a href={emaillink} target="_blank">
+          <a href={emaillink} target="_blank noreferrer">
             <IoIosMail className="w-full h-full text-amber-400" />
           </a>
         </div>
