@@ -3,7 +3,7 @@ import Image from "next/image";
 import { team } from "src/data/team";
 import Heading from "src/components/Heading";
 
-const Teammate = () => {
+const Teammates = () => {
   return (
     <div>
       <div className="flex justify-center pb-5">
@@ -46,4 +46,4 @@ const Teammate = () => {
   );
 };
 
-export default Teammate;
+export default Teammates;

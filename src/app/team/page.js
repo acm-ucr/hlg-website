@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner";
-import Teammates from "components\teamTeammate.jsx";
+import Teammates from "components\team\Teammates";
 
 const team = () => {
   return (
