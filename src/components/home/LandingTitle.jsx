@@ -7,13 +7,13 @@ console.log(Icon);
 
 const LandingTitle = () => {
   return (
-    <div className="h-screen bg-gradient-to-r flex items-center">
-      <Image src={Icon} alt="Icon" className="w-1/12" />;
-      <div className="flex-call">
-        <p className="text-white font-bold font-sans text-3xl items-center mt-20 flex space-y-2">
+    <div className="flex items-center">
+      <Image src={Icon} alt="Icon" className="w-1/12" />
+      <div className="flex-col">
+        <p className="text-white font-bold text-3xl items-center m-0 flex space-y-2">
           HIGHLANDER GAMING
         </p>
-        <p className="text-yellow-500 font-sans text-sm items-center mt-25 flex space-y-2">
+        <p className="text-yellow-500 text-sm items-center m-0 flex space-y-2">
           at University of California
         </p>
         <Button />
