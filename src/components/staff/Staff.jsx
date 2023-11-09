@@ -1,6 +1,6 @@
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
-import photo from "/Users/shiqizhou/hlg-website/public/awesome-cat-placeholder.png";
+import photo from "public/awesome-cat-placeholder.png";
 // import { IconContext } from "react-icons";
 
 // icons here
