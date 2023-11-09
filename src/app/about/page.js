@@ -5,8 +5,6 @@ const about = () => {
   return (
     <div>
       <Banner />
-      
-
     </div>
   );
 };

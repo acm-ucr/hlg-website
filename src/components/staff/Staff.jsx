@@ -25,7 +25,7 @@ const Staff = ({
   photo1,
 }) => {
   return (
-    <section className="mb-4 border-4 border-red-500">
+    <section className="mb-4">
       <div>
         <h3>{posname}</h3>
         <div className="pl-5 pb-1">
@@ -33,10 +33,10 @@ const Staff = ({
         </div>
       </div>
 
-      <div className="border-4 border-blue-500 flex flex-row justify-center">
-        <h4 className="rounded-3xl p-1.5 bg-blue-500 break-words inline-block text-center border-4 border-green-500">
+      <div className=" flex flex-row justify-left">
+        <h5 className="rounded-3xl py-1.5 px-3.5 bg-blue-950 break-words inline-block text-center text-white font-normal">
           {name}
-        </h4>
+        </h5>
       </div>
 
       <div className="flex flex-row pl-8">
