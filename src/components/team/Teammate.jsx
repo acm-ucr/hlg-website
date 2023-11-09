@@ -1,13 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import { team } from "src/data/team";
+import Heading from "src/components/Heading";
 
 const Teammate = () => {
   return (
     <div>
-      <div className="flex justify-center font-bold text-4xl shadow-md pb-3">
-        LEAGUE OF LEGENDS
+      <div className="flex justify-center pb-5">
+        <div className="text-3xl font-bold">
+          <Heading text={"League of Legends"} />
+        </div>
       </div>
+
       {team.map((player, index) => {
         <div>
           key = {index}
@@ -23,15 +27,15 @@ const Teammate = () => {
 
               <div className="mt-8 pl-10 pr-10" key={index}>
                 <div
-                  className={`bg-gradient-to-r from-${player.color} to-${player.colorGradient} bg-clip-text text-transparent font-bold text-4xl`}
+                  className={`bg-gradient-to-r ${player.colorInitial} ${player.colorGradient} bg-clip-text text-transparent font-bold text-4xl`}
                 >
-                  <p>{player.name}</p>
+                  <p className="m-0">{player.name}</p>
                 </div>
 
                 <div className="text-hlg-white pt-2 ml-2">
-                  <p>YEAR: {player.year}</p>
-                  <p>POSITION: {player.position}</p>
-                  <p>CHAMPION: {player.champion}</p>
+                  <p className="m-0">YEAR: {player.year}</p>
+                  <p className="m-0">POSITION: {player.position}</p>
+                  <p className="m-0">CHAMPION: {player.champion}</p>
                 </div>
               </div>
             </div>
