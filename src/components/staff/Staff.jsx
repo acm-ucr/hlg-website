@@ -6,7 +6,6 @@ import photo from "public/awesome-cat-placeholder.png";
 import { FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
-
 // displays a single staff element.
 const Staff = ({
   posname,
