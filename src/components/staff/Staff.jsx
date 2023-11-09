@@ -1,20 +1,11 @@
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
 import photo from "public/awesome-cat-placeholder.png";
-// import { IconContext } from "react-icons";
 
 // icons here
 import { FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
-// doesn't work: https://stackoverflow.com/questions/56636280/how-to-style-react-icons
-// function discordIcon() {
-//   return (
-//     <IconContext.Provider value={{ color: "red" }}>
-//       <FaDiscord className="w-full h-full" />
-//     </IconContext.Provider>
-//   );
-// }
 
 // displays a single staff element.
 const Staff = ({
