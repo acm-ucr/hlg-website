@@ -6,7 +6,7 @@ const Events = () => {
   return (
     <div className="flex flex-col items-center">
       <Heading text="Upcoming Events" />
-      <div className="space-y-7 mt-16">
+      <div className="space-y-7 mt-16 mb-16">
         {eventsData.map((event) => (
           <Event
             key={event.id}
@@ -23,6 +23,7 @@ const Events = () => {
             }`}
             title={event.title}
             location={event.location}
+            link={event.link}
             description={event.description}
             color={event.color}
           />

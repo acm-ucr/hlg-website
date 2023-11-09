@@ -20,13 +20,15 @@ const Event = ({
       </div>
 
       <div className="flex-1 pl-4 bg-hlg-gray">
-        <p className="text-xl text-hlg-black font-bold mb-1">{title}</p>
+        <p className="text-xl text-hlg-black font-bold mb-1 mt-1">{title}</p>
         <div className="flex items-center text-hlg-black">
           <p className="flex m-0 p-0 font-normal">{location}</p>
 
-          <Link className="text-hlg-black px-1 mb-0.5" href={`${link}`}>
-            <FiExternalLink />
-          </Link>
+          {link && (
+            <Link className="text-hlg-black px-1 mb-0.5" href={link}>
+              <FiExternalLink />
+            </Link>
+          )}
         </div>
         <p className="w-full focus:outline-none resize-none font-normal">
           {description}
