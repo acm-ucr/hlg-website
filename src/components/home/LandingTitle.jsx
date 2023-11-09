@@ -10,10 +10,10 @@ const LandingTitle = () => {
     <div className="flex items-center">
       <Image src={Icon} alt="Icon" className="w-1/12" />
       <div className="flex-col">
-        <p className="text-white font-bold text-3xl items-center m-0 flex space-y-2">
+        <p className="text-hlg-white font-bold text-3xl items-center m-0 flex space-y-2">
           HIGHLANDER GAMING
         </p>
-        <p className="text-yellow-500 text-sm items-center m-0 flex space-y-2">
+        <p className="text-hlg-yellow text-sm items-center m-0 flex space-y-2">
           at University of California
         </p>
         <Button />
