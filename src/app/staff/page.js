@@ -8,7 +8,7 @@ const staff = () => {
       <Banner />
       <div className="flex flex-col">
         <Heading text="Exec Board" />
-        <div className="flex flex-row justify-center gap-2 py-20 border-4 border-red-500">
+        <div className="flex flex-row justify-center gap-2 py-20">
           <Staff
             posname="position name"
             name="Evan Littlecat"
@@ -41,7 +41,7 @@ const staff = () => {
         </div>
 
         <Heading text="Esports" />
-        <div className="flex flex-row justify-center gap-2 py-20 border-4">
+        <div className="flex flex-row justify-center gap-2 py-20">
           <Staff
             posname="position name"
             name="Evan Littlecat"
@@ -73,7 +73,7 @@ const staff = () => {
         </div>
 
         <Heading text="Media" />
-        <div className="flex flex-row justify-center gap-2 py-20 border-4">
+        <div className="flex flex-row justify-center gap-2 py-20">
           <Staff
             posname="position name"
             name="Evan Littlecat"
@@ -105,7 +105,7 @@ const staff = () => {
         </div>
 
         <Heading text="Events" />
-        <div className="flex flex-row justify-center gap-2 py-20 border-4">
+        <div className="flex flex-row justify-center gap-2 py-20">
           <Staff
             posname="position name"
             name="Evan Littlecat"
