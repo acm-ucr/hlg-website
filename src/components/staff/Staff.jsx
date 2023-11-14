@@ -19,7 +19,7 @@ const Staff = ({
       <div>
         <h3>{posname}</h3>
         <div className="pl-5 pb-1">
-          <Image src={photo5} />
+          <Image src={photo} />
         </div>
       </div>
 
