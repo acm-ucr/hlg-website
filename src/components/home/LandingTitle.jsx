@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const LandingTitle = () => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-start">
       <Image src={Icon} alt="Icon" className="w-1/12" />
-      <div className="flex-col pt-10">
+      <div className="flex-col pt-4">
         <p className="text-hlg-white font-bold text-3xl items-center m-0 flex space-y-2">
           HIGHLANDER GAMING
         </p>
         <p className="text-hlg-yellow text-sm items-center m-0 flex space-y-2">
           at University of California
         </p>
-        <div className="pt-20"></div>
+        <div className="pt-4"></div>
         <Button />
       </div>
     </div>
