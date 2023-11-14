@@ -11,7 +11,8 @@ export const team = [
     position: "Top",
     champion: "Mordekaiser",
     color: "hlg-orange",
-    colorGradient: "hlg-yellow",
+    colorInitial: "from-hlg-orange",
+    colorGradient: "to-hlg-yellow",
   },
   {
     name: 'Matthew "GetTurtled" Nguyen',
@@ -20,7 +21,8 @@ export const team = [
     position: "JG",
     champion: "Graves",
     color: "hlg-blue-100",
-    colorGradient: "hlg-blue-200",
+    colorInitial: "from-hlg-blue-100",
+    colorGradient: "to-hlg-blue-200",
   },
   {
     name: 'Jake "LDCs" Han',
@@ -29,7 +31,8 @@ export const team = [
     position: "Mid",
     champion: "Gragas",
     color: "hlg-orange",
-    colorGradient: "hlg-yellow",
+    colorInitial: "from-hlg-orange",
+    colorGradient: "to-hlg-yellow",
   },
   {
     name: 'Andre "GALAMODE" Amante',
@@ -38,7 +41,8 @@ export const team = [
     position: "Bot/ADC",
     champion: "Aphelios",
     color: "hlg-pink",
-    colorGradient: "hlg-purple",
+    colorInitial: "from-hlg-pink",
+    colorGradient: "to-hlg-purple",
   },
   {
     name: 'Chrisian "SlyLego" Tran',
@@ -47,6 +51,7 @@ export const team = [
     position: "Supp",
     champion: "Rell",
     color: "hlg-green",
-    colorGradient: "hlg-teal",
+    colorInitial: "from-hlg-green",
+    colorGradient: "to-hlg-teal",
   },
 ];
