@@ -2,7 +2,7 @@ import Banner from "@/components/Banner";
 import Staff from "src/components/staff/Staff.jsx";
 import Heading from "src/components/Heading.jsx";
 
-import {execboard, esports, media, events} from "src/data/staff.js";
+import { execboard, esports, media, events } from "src/data/staff.js";
 
 const staff = () => {
   return (
@@ -60,7 +60,6 @@ const staff = () => {
           })}
         </div>
       </div>
-
 
       <Heading text="Events" />
       <div className="flex flex-row justify-center gap-2 py-20">

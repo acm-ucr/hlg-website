@@ -12,7 +12,7 @@ const Staff = ({
   name = "name",
   discordlink = "none",
   emaillink = "none",
-  photo={photo5},
+  photo = { photo5 },
 }) => {
   return (
     <section className="mb-4">
