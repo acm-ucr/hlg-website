@@ -38,10 +38,9 @@ const Who = () => {
       </div>
 
       <div className="flex flex-row justify-center pt-2 bg-hlg-gray h-30">
-        <p className="rounded-3xl  w-8/12 p-8 text-center">
-          Through Highlander Gaming, we hope to create a strong community that
-          dedicates itself to a competitive spirit, while maintaining a strong
-          sense of sportsmanship and social inclusion
+        <p className="rounded-3xl  w-5/12 p-8 text-center">
+          To become a student member, follow us online and show up to any
+          meetings, events, or projects that interest you!
         </p>
       </div>
     </div>
