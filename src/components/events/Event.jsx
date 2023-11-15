@@ -2,13 +2,14 @@ import Link from "next/link";
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
 const Event = ({
-  month = "FEB",
-  day = "29",
-  time = "7:00PM",
-  title = "Event Title",
+  month = "",
+  day = "",
+  time = "",
+  title = "",
+  location = "",
   link = "http://google.com",
-  description = "Lorem ipsum dolor hello this is a test for the lol",
-  color = "bg-hlg-orange",
+  description = "",
+  color = "",
 }) => {
   return (
     <div className="flex rounded-lg overflow-hidden  max-w-2xl">
@@ -19,13 +20,15 @@ const Event = ({
       </div>
 
       <div className="flex-1 pl-4 bg-hlg-gray">
-        <p className="text-xl text-hlg-black font-bold mb-1">{title}</p>
+        <p className="text-xl text-hlg-black font-bold mb-1 mt-1">{title}</p>
         <div className="flex items-center text-hlg-black">
-          <p className="flex m-0 p-0 font-normal">zoom: link</p>
+          <p className="flex m-0 p-0 font-normal">{location}</p>
 
-          <Link className="text-hlg-black" href={`${link}`}>
-            <FiExternalLink />
-          </Link>
+          {link && (
+            <Link className="text-hlg-black px-1 mb-0.5" href={link}>
+              <FiExternalLink />
+            </Link>
+          )}
         </div>
         <p className="w-full focus:outline-none resize-none font-normal">
           {description}

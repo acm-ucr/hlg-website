@@ -1,5 +1,12 @@
+import LandingTitle from "@/components/home/LandingTitle";
+
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <div>
+      Landing
+      <LandingTitle />
+    </div>
+  );
 };
 
 export default Landing;
