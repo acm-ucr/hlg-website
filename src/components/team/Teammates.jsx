@@ -19,7 +19,7 @@ const Teammates = () => {
         </div>;
         return (
           <div
-            className="pb-5 pt-2 pr-10 pl-10 justify-center items-center border-4 border-gray-500"
+            className="pb-5 pt-2 pr-10 pl-10 justify-center items-center"
             key={index}
           >
             <div className="flex bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
