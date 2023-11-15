@@ -30,7 +30,7 @@ const Teammates = () => {
               />
 
               <div
-                className="flex flex-col h-full justify-center pt-4 pb-4 pl-4 pr-4 sm:pl-10 sm:pr-10 bg-gradient-to-r"
+                className="flex flex-col justify-center pt-4 pb-4 pl-4 pr-4 sm:pl-10 sm:pr-10 bg-gradient-to-r"
                 key={index}
               >
                 <div
