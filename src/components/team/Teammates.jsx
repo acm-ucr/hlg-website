@@ -23,19 +23,23 @@ const Teammates = () => {
             key={index}
           >
             <div className="border-4 border-red-500 flex bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
-              <Image src={player.image} alt="champion Image" />
+              <Image
+                src={player.image}
+                alt="champion Image"
+                className="w-1/2 sm:w-1/2"
+              />
 
               <div
-                className="mt-8 sm:pl-10 sm:pr-10 border-4 border-yellow-500 bg-gradient-to-r"
+                className="flex flex-col justify-center mt-8 sm:pl-10 sm:pr-10 border-4 border-yellow-500 bg-gradient-to-r"
                 key={index}
               >
                 <div
-                  className={`bg-gradient-to-r ${player.colorInitial} ${player.colorGradient} bg-clip-text text-transparent font-bold text-2xl sm:text-4xl`}
+                  className={`bg-gradient-to-r ${player.colorInitial} ${player.colorGradient} bg-clip-text text-transparent font-medium sm:font-bold text-base sm:text-4xl`}
                 >
                   <p>{player.name}</p>
                 </div>
 
-                <div className="text-hlg-white pt-2">
+                <div className="text-hlg-white pt-2 text-xs sm:text-base">
                   <p className="m-0">YEAR: {player.year}</p>
                   <p className="m-0">POSITION: {player.position}</p>
                   <p className="m-0">CHAMPION: {player.champion}</p>
