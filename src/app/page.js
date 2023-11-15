@@ -13,8 +13,8 @@ const Home = () => {
 
       <Who />
 
-      <div className="flex justify-center">
-        <div className="grid grid-cols-5 grid-rows-2 gap-4">
+      <div className="flex justify-center bg-hlg-gray col-span-1">
+        <div className="grid grid-cols-5 grid-rows-2 gap-4 mb-100">
           {links.map((linkData, index) => (
             <Social
               key={index}
@@ -25,8 +25,9 @@ const Home = () => {
           ))}
         </div>
       </div>
-
-      <Sponsors />
+      <div className="pt-10">
+        <Sponsors />
+      </div>
     </div>
   );
 };

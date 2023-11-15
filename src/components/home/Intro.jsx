@@ -1,6 +1,7 @@
 import photo from "public/prize-winners.png";
 import Image from "next/image";
 import Heading from "src/components/Heading.jsx";
+
 const Who = () => {
   return (
     <div className="flex flex-col justify-center">
@@ -32,8 +33,12 @@ const Who = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center pt-10">
-        <p className="rounded-3xl bg-hlg-gray w-8/12 p-8 text-center">
+      <div className="text-3xl font-bold pb-3">
+        <Heading text={"Join HLG@UCR"} />
+      </div>
+
+      <div className="flex flex-row justify-center pt-2 bg-hlg-gray h-30">
+        <p className="rounded-3xl  w-8/12 p-8 text-center">
           Through Highlander Gaming, we hope to create a strong community that
           dedicates itself to a competitive spirit, while maintaining a strong
           sense of sportsmanship and social inclusion
