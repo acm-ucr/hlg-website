@@ -22,15 +22,15 @@ const Teammates = () => {
             className="pb-5 pt-2 pr-10 pl-10 justify-center items-center "
             key={index}
           >
-            <div className="border-4 border-red-500 flex bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
+            <div className="flex bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
               <Image
                 src={player.image}
                 alt="champion Image"
-                className="w-1/2 sm:w-1/2"
+                className="w-1/2"
               />
 
               <div
-                className="flex flex-col justify-center mt-8 sm:pl-10 sm:pr-10 border-4 border-yellow-500 bg-gradient-to-r"
+                className="flex flex-col h-full justify-center pt-4 pb-4 pl-4 pr-4 sm:pl-10 sm:pr-10 bg-gradient-to-r"
                 key={index}
               >
                 <div

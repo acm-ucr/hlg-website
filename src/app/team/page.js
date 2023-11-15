@@ -3,7 +3,7 @@ import Teammates from "src/components/team/Teammates";
 
 const team = () => {
   return (
-    <div className="border-4 border-purple-500 sm:border-red-500 w-screen">
+    <div className="border-4">
       <Banner />
       <Teammates />
     </div>
