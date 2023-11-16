@@ -12,8 +12,8 @@ const Home = () => {
       <Landing />
 
       <Who />
-
-      <div className="flex justify-center bg-hlg-gray col-span-1">
+      <div className="bg-hlg-gray absolute h-64 w-screen z-[-1]"></div>
+      <div className="flex justify-center">
         <div className="grid grid-cols-5 grid-rows-2 gap-4 mb-100">
           {links.map((linkData, index) => (
             <Social
@@ -25,6 +25,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+
       <div className="pt-10">
         <Sponsors />
       </div>

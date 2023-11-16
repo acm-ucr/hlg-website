@@ -38,7 +38,7 @@ const Who = () => {
       </div>
 
       <div className="flex flex-row justify-center pt-2 bg-hlg-gray h-30">
-        <p className="rounded-3xl  w-5/12 p-8 text-center">
+        <p className="rounded-3xl  w-5/12 p-7 text-center">
           To become a student member, follow us online and show up to any
           meetings, events, or projects that interest you!
         </p>
