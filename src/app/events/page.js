@@ -7,7 +7,7 @@ import Slides from "@/components/events/Slides";
 const events = () => {
   return (
     <div>
-      <Banner YellowText={"Check"} WhiteText={"Our Events"} />
+      <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
 
       <div className="pt-[500px]" />
 

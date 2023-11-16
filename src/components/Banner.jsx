@@ -6,13 +6,13 @@ const Banner = ({ YellowText, WhiteText }) => {
     <div className="top-0  ">
       <div
         className="absolute top-0 bottom-0 h-3/4 w-3/5 bg-gradient-to-r from-hlg-black to-hlg-blue-300 
-        flex justify-center items-center"
+        flex justify-center left-0"
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 45%)" }}
       >
-        <p className="text-hlg-yellow font-bold md:text-4xl lg:text-5xl pr-3 pb-[250px] ">
+        <p className="text-hlg-yellow font-bold md:text-4xl lg:text-5xl left-0 pr-3 pt-[150px] ">
           {YellowText}
         </p>
-        <p className="text-hlg-white font-bold md:text-4xl lg:text-5xl pr-[375px] pb-[250px] ">
+        <p className="text-hlg-white font-bold md:text-4xl lg:text-5xl pr-20 left-0  pt-[150px] ">
           {WhiteText}
         </p>
       </div>

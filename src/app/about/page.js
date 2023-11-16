@@ -6,7 +6,7 @@ const about = () => {
   return (
     <div>
       <Who />
-      <Banner YellowText={"About"} WhiteText={"Us"} />
+      <Banner YellowText={"ABOUT"} WhiteText={"US"} />
       <div className="py-5" />
       <Story />
     </div>
