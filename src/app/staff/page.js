@@ -3,7 +3,7 @@ import Banner from "@/components/Banner";
 const staff = () => {
   return (
     <div>
-      <Banner />
+      <Banner YellowText={"Our"} WhiteText={"Teams"} />
     </div>
   );
 };

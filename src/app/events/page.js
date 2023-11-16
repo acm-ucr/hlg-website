@@ -7,7 +7,10 @@ import Slides from "@/components/events/Slides";
 const events = () => {
   return (
     <div>
-      <Banner />
+      <Banner YellowText={"Check"} WhiteText={"Out Events"} />
+
+      <div className="pt-[400px]"/>
+
       <CalendarEvent events={data} />
 
       <Events />

@@ -9,10 +9,10 @@ const Banner = ({ YellowText, WhiteText }) => {
         flex justify-center items-center"
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 45%)" }}
       >
-        <p className="text-hlg-yellow text-5xl pr-2 pb-[150px] ">
+        <p className="text-hlg-yellow md:text-4xl lg:text-5xl pr-2 pb-[150px] ">
           {YellowText}
         </p>
-        <p className="text-hlg-white text-5xl pl-2 pb-[150px] ">{WhiteText}</p>
+        <p className="text-hlg-white md:text-4xl lg:text-5xl pl-2 pb-[150px] ">{WhiteText}</p>
       </div>
 
       <div
