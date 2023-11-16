@@ -23,11 +23,15 @@ const Teammates = () => {
             key={index}
           >
             <div className="border-4 md:w-11/12 border-purple-500 flex flex-col md:flex-row bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
-              <Image src={player.image} alt="champion Image" />
+              <Image
+                src={player.image}
+                alt="champion Image"
+                className="md:w-1/3"
+              />
               {/* smallest, small, large, w-1/2 sm:w-1/2 lg:w-1/4 */}
 
               <div
-                className="border-4 border-blue-500 p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r md:text-start md:w-3/4 text-center"
+                className="border-4 border-blue-500 p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r md:text-start md:w-2/3 text-center"
                 key={index}
               >
                 <div
