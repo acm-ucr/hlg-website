@@ -9,7 +9,7 @@ const events = () => {
     <div>
       <Banner YellowText={"Check"} WhiteText={"Out Events"} />
 
-      <div className="pt-[400px]"/>
+      <div className="pt-[400px]" />
 
       <CalendarEvent events={data} />
 
