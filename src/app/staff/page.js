@@ -7,7 +7,7 @@ import { execboard, esports, media, events } from "src/data/staff.js";
 const staff = () => {
   return (
     <div>
-      <Banner />
+      <Banner YellowText={"OUR"} WhiteText={"TEAMS"} />
       <div className="flex flex-col">
         <Heading text="Exec Board" />
         <div className="flex flex-row justify-center gap-2 py-20">
