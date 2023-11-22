@@ -5,7 +5,7 @@ import Heading from "src/components/Heading";
 
 const Teammates = () => {
   return (
-    <div className="border-4 border-red-500 sm:border-green-500 md:border-gray-500 lg:border-blue-500">
+    <div>
       <div className="flex justify-center pb-5">
         <div className="text-3xl font-bold">
           <Heading text={"League of Legends"} />
@@ -22,7 +22,7 @@ const Teammates = () => {
             className="flex flex-col pb-5 pt-2 pr-10 pl-10 justify-center items-center"
             key={index}
           >
-            <div className="border-4 md:w-11/12 border-purple-500 flex flex-col md:flex-row bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
+            <div className="md:w-11/12  flex flex-col md:flex-row bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
               <Image
                 src={player.image}
                 alt="champion Image"
@@ -31,7 +31,7 @@ const Teammates = () => {
               {/* smallest, small, large, w-1/2 sm:w-1/2 lg:w-1/4 */}
 
               <div
-                className="border-4 border-blue-500 p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r  md:w-2/3 md:h-1/12 text-start"
+                className="p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r  md:w-2/3 md:h-1/12 text-start"
                 key={index}
               >
                 <div
