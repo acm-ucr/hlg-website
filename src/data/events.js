@@ -6,6 +6,7 @@ export default [
     type: 3,
     title: "Meeting",
     location: "http://zoom.us",
+    link: "http://zoom.us",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     color: "bg-hlg-blue-100",
@@ -17,6 +18,7 @@ export default [
     type: 3,
     title: "Meeting",
     location: "WCH 205, 206",
+    link: "",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     color: "bg-hlg-blue-100",
@@ -28,6 +30,7 @@ export default [
     type: 2,
     title: "Meeting",
     location: "http://zoom.us",
+    link: "http://zoom.us",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     color: "bg-hlg-blue-100",

@@ -3,7 +3,7 @@ import Banner from "@/components/Banner";
 const team = () => {
   return (
     <div>
-      <Banner />
+      <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
     </div>
   );
 };

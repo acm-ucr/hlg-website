@@ -1,6 +1,7 @@
 import photo from "public/prize-winners.png";
 import Image from "next/image";
 import Heading from "src/components/Heading.jsx";
+
 const Who = () => {
   return (
     <div className="flex flex-col justify-center">
