@@ -4,8 +4,9 @@ import Teammates from "src/components/team/Teammates.jsx";
 const team = () => {
   return (
     <div>
-      <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
+      <Banner YellowText={"OUR"} WhiteText={"TEAMS"} />
       <Teammates />
+      <div className="py-5" />
     </div>
   );
 };
