@@ -1,11 +1,9 @@
 import Banner from "@/components/Banner";
-import Teammates from "src/components/team/Teammates";
 
 const team = () => {
   return (
     <div>
-      <Banner />
-      <Teammates />
+      <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
     </div>
   );
 };
