@@ -5,8 +5,8 @@ import Banner from "@/components/Banner";
 const about = () => {
   return (
     <div>
-      <Who />
       <Banner YellowText={"ABOUT"} WhiteText={"US"} />
+      <Who />
       <div className="py-5" />
       <Story />
     </div>
