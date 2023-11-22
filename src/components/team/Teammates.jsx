@@ -23,24 +23,20 @@ const Teammates = () => {
             key={index}
           >
             <div className="border-4 md:w-11/12 border-purple-500 flex flex-col md:flex-row bg-gradient-to-r from-hlg-blue-300 to-hlg-black">
-              <Image
-                src={player.image}
-                alt="champion Image"
-                className="md:w-1/3"
-              />
+              <Image src={player.image} alt="champion Image" className="md:w-1/3"/>
               {/* smallest, small, large, w-1/2 sm:w-1/2 lg:w-1/4 */}
 
               <div
-                className="border-4 border-blue-500 p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r md:text-start md:w-2/3 text-center"
+                className="border-4 border-blue-500 p-4 sm:pl-10 sm:pr-10 bg-gradient-to-r  md:w-2/3 md:h-1/12 text-start"
                 key={index}
               >
                 <div
-                  className={`bg-gradient-to-r ${player.colorInitial} ${player.colorGradient} bg-clip-text text-transparent font-bold sm:font-bold text-base md:text-xl lg:text-4xl`}
+                  className={`bg-gradient-to-r ${player.colorInitial} ${player.colorGradient} bg-clip-text text-transparent font-bold sm:font-bold text-base md:text-xl lg:text-4xl `}
                 >
-                  <p>{player.name}</p>
+                  <p className="m-0">{player.name}</p>
                 </div>
-
-                <div className="text-hlg-white pt-2 text-xs sm:text-sm xl:text-2xl">
+                
+                <div className="text-hlg-white md:pt-2 text-xs sm:text-sm lg:text-2xl">
                   <p className="m-0">YEAR: {player.year}</p>
                   <p className="m-0">POSITION: {player.position}</p>
                   <p className="m-0">CHAMPION: {player.champion}</p>
