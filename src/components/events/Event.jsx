@@ -14,9 +14,15 @@ const Event = ({
   return (
     <div className="flex rounded-lg overflow-hidden lg:max-w-2xl sm:max-w-md">
       <div className={`${color} p-4 text-hlg-white text-center w-1/4 `}>
-        <div className="lg:text-4xl font-bold md:text-2xl sm:text-xl">{month}</div>
-        <div className="lg:text-4xl font-semibold md:text-2xl sm:text-3xl">{day}</div>
-        <div className="lg:text-xl font-normal md:text-2xl sm:text-3xl">{time}</div>
+        <div className="lg:text-4xl font-bold md:text-2xl sm:text-xl">
+          {month}
+        </div>
+        <div className="lg:text-4xl font-semibold md:text-2xl sm:text-3xl">
+          {day}
+        </div>
+        <div className="lg:text-xl font-normal md:text-2xl sm:text-3xl">
+          {time}
+        </div>
       </div>
 
       <div className="flex-1 pl-4 bg-hlg-gray">
