@@ -15,60 +15,60 @@ export const links = [
   {
     text: "Discord",
     icon: <FaDiscord />,
-    link: "",
+    link: "https://discord.com/invite/hlg",
   },
 
   {
     text: "Email",
     icon: <FaEnvelope />,
-    link: "",
+    link: "https://mail.google.com/?fs=1&tf=cm&source=mailto&to=hlg.ucr@gmail.com",
   },
 
   {
     text: "Highlander",
     icon: <FaLink />,
-    link: "",
+    link: "https://highlanderlink.ucr.edu/organization/highlandergaming",
   },
 
   {
     text: "Events",
     icon: <FaRegCalendar />,
-    link: "",
+    link: "/events",
   },
 
   {
     text: "Facebook",
     icon: <FaSquareFacebook />,
-    link: "",
+    link: "https://www.facebook.com/highlandergaming/",
   },
 
   {
     text: "Instagram",
     icon: <FaInstagram />,
-    link: "",
+    link: "https://www.instagram.com/hlg_ucr/?hl=en",
   },
 
   {
     text: "Youtube",
     icon: <FaYoutube />,
-    link: "",
+    link: "https://www.youtube.com/channel/UCXwKZha4m6PEehn4sn_IHmA",
   },
 
   {
     text: "Twitter",
     icon: <FaTwitter />,
-    link: "",
+    link: "https://twitter.com/HLG_UCR",
   },
 
   {
     text: "TikTok",
     icon: <FaTiktok />,
-    link: "",
+    link: "https://www.tiktok.com/@hlgucr",
   },
 
   {
     text: "Twitch",
     icon: <FaTwitch />,
-    link: "",
+    link: "https://www.twitch.tv/hlgucr",
   },
 ];
