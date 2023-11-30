@@ -63,7 +63,7 @@ const staff = () => {
       </div>
 
       <Heading text="Events" />
-      <div className="flex flex-row justify-center gap-2 py-20">
+      <div className="flex flex-row justify-center gap-2 pt-20">
         {events.map((player, index) => {
           return (
             <div key={index}>
