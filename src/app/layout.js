@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
         <Navigation />
         <div className="py-10" />
         {children}
-        <Footer />
+        <div className="mt-16">
+          <Footer />
+        </div>
       </body>
     </html>
   );
