@@ -9,6 +9,8 @@ const events = () => {
   return (
     <div>
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
+      <div className="p-14" />
+
       <Heading text="Calendar" />
       <div className="flex items-center justify-center">
         <CalendarEvent events={data} />

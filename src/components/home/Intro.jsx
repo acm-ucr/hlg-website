@@ -44,7 +44,7 @@ const Who = () => {
         <Heading text={"Join HLG@UCR"} />
       </div>
 
-      <div className="flex flex-row justify-center pt-2 bg-hlg-gray h-30 mb-4">
+      <div className="flex flex-row justify-center bg-hlg-gray h-30 pb-2">
         <p className="rounded-3xl  md:w-5/12 p-7 text-center">
           To become a student member, follow us online and show up to any
           meetings, events, or projects that interest you!

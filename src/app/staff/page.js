@@ -8,6 +8,7 @@ const staff = () => {
   return (
     <div>
       <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
+      <div className="p-14" />
 
       <div className="flex flex-col">
         <Heading text="Exec Board" />
@@ -63,7 +64,7 @@ const staff = () => {
       </div>
 
       <Heading text="Events" />
-      <div className="flex flex-row justify-center gap-2 py-20">
+      <div className="flex flex-row justify-center gap-2 pt-20">
         {events.map((player, index) => {
           return (
             <div key={index}>
