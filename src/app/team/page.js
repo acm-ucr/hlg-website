@@ -6,7 +6,6 @@ const team = () => {
     <div>
       <Banner YellowText={"OUR"} WhiteText={"TEAMS"} />
       <Teammates />
-      <div className="py-5" />
     </div>
   );
 };
