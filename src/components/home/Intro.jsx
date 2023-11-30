@@ -4,7 +4,7 @@ import Heading from "src/components/Heading.jsx";
 
 const Who = () => {
   return (
-    <div className="flex flex-col justify-center border-4 sm:border-red-800 md:border-yellow-500 lg:border-blue-500">
+    <div className="flex flex-col justify-center ">
       <div className="flex md:flex-row flex-col-reverse w-full items-center md:items-start justify-center ">
         {/* left side */}
         <div className="md:mt-6 md:relative justify-center flex md:max-w-sm lg:max-w-md md:w-6/12 md:basis-5/12 ">
