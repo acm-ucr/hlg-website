@@ -8,6 +8,7 @@ const staff = () => {
   return (
     <div>
       <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
+      <div className="p-14" />
 
       <div className="flex flex-col">
         <Heading text="Exec Board" />

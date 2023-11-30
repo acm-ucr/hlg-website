@@ -5,6 +5,8 @@ const team = () => {
   return (
     <div>
       <Banner YellowText={"OUR"} WhiteText={"TEAMS"} />
+      <div className="p-14" />
+
       <Teammates />
     </div>
   );
