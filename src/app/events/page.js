@@ -10,8 +10,9 @@ const events = () => {
     <div>
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
       <Heading text="Calendar" />
-      <CalendarEvent events={data} />
-
+      <div className="flex items-center justify-center">
+        <CalendarEvent events={data} />
+      </div>
       <Events />
       <Slides />
     </div>
