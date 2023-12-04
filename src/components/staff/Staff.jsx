@@ -1,6 +1,6 @@
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
-import photo5 from "public/awesome-cat-placeholder.png";
+import photo5 from "public/gaming.png";
 
 // icons here
 import { FaDiscord } from "react-icons/fa6";
@@ -14,6 +14,7 @@ const Staff = ({
   emaillink = "none",
   photo = { photo5 },
 }) => {
+  console.log(photo);
   return (
     <section className="mb-4">
       <div>
