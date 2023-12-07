@@ -3,7 +3,6 @@ import Story from "@/components/about/Story";
 import Who from "src/components/about/Who.jsx";
 import Banner from "@/components/Banner";
 
-
 const about = () => {
   return (
     <RootLayout pageTitle="About">
