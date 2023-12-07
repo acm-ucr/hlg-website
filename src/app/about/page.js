@@ -6,6 +6,8 @@ const about = () => {
   return (
     <div>
       <Banner YellowText={"ABOUT"} WhiteText={"US"} />
+      <div className="p-14" />
+
       <Who />
       <div className="py-5" />
       <Story />
