@@ -4,13 +4,13 @@ import Heading from "@/components/Heading";
 
 const Story = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center text-base ">
+    <div className="px-10 flex flex-col justify-center items-center text-center text-base ">
       <Heading text={"Our Story"} />
 
       <div className="py-2" />
 
       <div className="max-w-screen-md flex-col justify-center text-center mt-4">
-        <p className="text-hlg-black text-center ">
+        <p className=" text-hlg-black text-center ">
           Highlanger Gaming began as &quot;Esports at UCR&quot; in 2012 with a
           small group of friends, focusing mostly on Blizzard&apos;s feature
           title of that time, Starcraft 2. Our organization&apos;s goals at the
@@ -18,7 +18,7 @@ const Story = () => {
           flourish and connect with each other.
         </p>
 
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full mt-4">
           <Image src={RegistrationLine} className="rounded-5" />
         </div>
 
@@ -33,7 +33,7 @@ const Story = () => {
           the nation.
         </p>
 
-        <p className="text-hlg-black">
+        <p className="text-hlg-black mt-4">
           Currently Highlander Gaming&apos;s staff consists of a dedicated group
           of students who are determined to put in the time and effort to make
           our organization&apos;s goals happen. Our officers and directors are
