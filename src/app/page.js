@@ -3,11 +3,13 @@ import Landing from "@/components/home/Landing";
 
 import { links } from "@/data/links";
 
+import RootLayout from "src/app/layout.js";
 import Who from "@/components/home/Intro";
 import Sponsors from "@/components/home/Sponsors";
 
 const Home = () => {
   return (
+    <RootLayout pageTitle="">
     <div>
       <Landing />
 
@@ -30,6 +32,7 @@ const Home = () => {
         <Sponsors />
       </div>
     </div>
+    </RootLayout>
   );
 };
 
