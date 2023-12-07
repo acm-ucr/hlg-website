@@ -10,14 +10,16 @@ const Footer = () => {
       <div className="flex items-center mt-2">
         <Icon />
       </div>
-      <div className="flex items-end">
-        <div className="flex flex-col items-end">
+      <div className="flex items-start">
+        <div className="flex flex-col items-start pl-4">
           <div className="mb-1">contact us</div>
-          <div className="ml-4">900 University Ave,</div>
-          <div className="ml-4">Riverside, CA 92521</div>
+          <div className="">900 University Ave,</div>
+          <div className="">Riverside, CA 92521</div>
         </div>
+
         <div className="border-l-4 border-hlg-white h-full mx-4"></div>
-        <div className="flex flex-col items-end">
+
+        <div className="flex flex-col">
           <Link
             href="https://discord.com/invite/hlg"
             target="_blank"

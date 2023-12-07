@@ -14,7 +14,6 @@ const Staff = ({
   emaillink = "none",
   photo = { photo5 },
 }) => {
-  console.log(photo);
   return (
     <section className="mb-4">
       <div>

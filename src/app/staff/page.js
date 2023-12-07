@@ -14,8 +14,6 @@ const staff = () => {
         <Heading text="Exec Board" />
         <div className="flex flex-row justify-center gap-2 py-20">
           {execboard.map((player, index) => {
-            console.log("we here");
-            console.log(player.photo);
             return (
               <div key={index}>
                 <Staff
