@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const error = () => {
   return (
-    <div className=" flex flex-col my-20 items-center">
+    <div className="justify-center flex flex-col items-center">
       <p className="text-hlg-orange text-center text-4xl"> Whoops! </p>
 
       <p className="text-hlg-blue-300 text-center text-8xl "> 404 </p>
