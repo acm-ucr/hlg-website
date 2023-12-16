@@ -8,6 +8,7 @@ import Heading from "@/components/Heading";
 const events = () => {
   return (
     <div>
+      <title>HLG | Events</title>
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
       <div className="p-14" />
 

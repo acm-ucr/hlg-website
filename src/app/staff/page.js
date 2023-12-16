@@ -7,6 +7,7 @@ import { execboard, esports, media, events } from "src/data/staff.js";
 const staff = () => {
   return (
     <div>
+      <title>HLG | Staff</title>
       <Banner YellowText={"MEET"} WhiteText={"THE BOARD"} />
       <div className="p-14" />
 
