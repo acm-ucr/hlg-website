@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-l from-hlg-blue-300 to-hlg-black text-hlg-white p-4 flex-1 flex justify-between">
+    <div className="bg-gradient-to-l from-hlg-blue-300 to-hlg-black text-hlg-white p-4 flex justify-between">
       <div className="flex items-center mt-2">
         <Icon />
       </div>
