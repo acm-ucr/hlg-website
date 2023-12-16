@@ -1,7 +1,6 @@
 "use client";
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
-import photo5 from "public/awesome-cat-placeholder.png";
 
 // icons here
 import { FaDiscord } from "react-icons/fa6";
@@ -15,7 +14,7 @@ const Staff = ({
   name = "name",
   discordlink = "none",
   emaillink = "none",
-  photo = { photo5 },
+  photo = "",
 }) => {
   return (
     <section className="mb-4">

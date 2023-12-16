@@ -5,6 +5,7 @@ import Banner from "@/components/Banner";
 const about = () => {
   return (
     <div>
+      <title>HLG | About</title>
       <Banner YellowText={"ABOUT"} WhiteText={"US"} />
       <div className="p-14" />
 

@@ -19,10 +19,11 @@ const Sponsors = () => {
   return (
     <div className="flex flex-col justify-center items-center text-center text-lg ">
       <p className="text-hlg-black ">Partnered with</p>
-      <Image src={GenG} className="" />
-      <div className="py-20"></div>
+      <Image src={GenG} className="w-1/3 xl:w-1/6" />
+      <div className="py-5"></div>
+      <div className="xl:py-16 2xl:py-16"></div>
       <p className="text-hlg-black ">Previously Sponsored By</p>
-      <div className="flex flex-row space-x-20">
+      <div className="flex flex-row space-x-20 ms: mx-4">
         <div className="flex flex-col">
           <Image src={Msi} className="mb-10" />
 
@@ -33,7 +34,7 @@ const Sponsors = () => {
           <Image src={Spectre} className="mb-10" />
         </div>
 
-        <div className="flex flex-col ">
+        <div className="flex flex-col">
           <Image src={Seasonic} className="mb-10" />
 
           <Image src={TurtleBeach} className="mb-10" />
@@ -45,7 +46,7 @@ const Sponsors = () => {
           <Image src={WarnerBros} className="mb-10" />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <Image src={Razor} className="mb-10" />
 
           <Image src={Gamdias} className="mb-10" />
