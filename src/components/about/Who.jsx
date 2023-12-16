@@ -4,7 +4,7 @@ import Heading from "src/components/Heading.jsx";
 
 const Who = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="px-10 flex flex-col items-center">
       <Heading text={"Who We Are"} />
 
       <div className="py-2" />
