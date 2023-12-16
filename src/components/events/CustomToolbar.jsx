@@ -22,7 +22,6 @@ const CustomToolbar = (event) => {
       <div className="md:w-1/3 flex gap-3 mb-2 md:mb-0 items-center">
         <AiOutlineArrowLeft
           onClick={() => {
-            console.log("prev");
             event.onNavigate("PREV");
           }}
           className="hover:cursor-pointer"

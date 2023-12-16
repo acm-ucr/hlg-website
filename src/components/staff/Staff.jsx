@@ -1,6 +1,6 @@
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
-import photo from "public/awesome-cat-placeholder.png";
+import photo5 from "public/gaming.png";
 
 // icons here
 import { FaDiscord } from "react-icons/fa6";
@@ -8,11 +8,11 @@ import { IoIosMail } from "react-icons/io";
 
 // displays a single staff element.
 const Staff = ({
-  posname,
-  name,
+  posname = "position name",
+  name = "name",
   discordlink = "none",
   emaillink = "none",
-  photo1,
+  photo = { photo5 },
 }) => {
   return (
     <section className="mb-4">

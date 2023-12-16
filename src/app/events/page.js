@@ -8,10 +8,14 @@ import Heading from "@/components/Heading";
 const events = () => {
   return (
     <div>
+      <title>HLG | Events</title>
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
-      <Heading text="Calendar" />
-      <CalendarEvent events={data} />
+      <div className="p-14" />
 
+      <Heading text="Calendar" />
+      <div className="flex items-center justify-center">
+        <CalendarEvent events={data} />
+      </div>
       <Events />
       <Slides />
     </div>
