@@ -19,9 +19,9 @@ const staff = () => {
                 <Staff
                   posname={player.posname}
                   name={player.name}
-                  photo={player.photo}
                   discordlink={player.discordlink}
                   emaillink={player.emaillink}
+                  photo={player.photo}
                 />
               </div>
             );
