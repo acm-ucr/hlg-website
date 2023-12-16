@@ -13,17 +13,13 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  defaultTitle: "HLG at UCR",
+  title: "HLG at UCR",
   description: "Highlander Gaming at UCR",
 };
 
-export default function RootLayout({ children, pageTitle }) {
-  const title = pageTitle ? `HLG | ${pageTitle}` : metadata.defaultTitle;
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>{title}</title>
-      </head>
       <body className={`${montserrat.className}`}>
         <Navigation />
         <div className="py-10" />
