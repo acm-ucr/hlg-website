@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Landing />
+      <div className=" py-[230px] md:py-[200px]" />
 
       <Who />
       <div className="bg-hlg-gray absolute h-64 w-screen z-[-1]"></div>

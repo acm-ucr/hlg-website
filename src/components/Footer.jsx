@@ -21,14 +21,20 @@ const Footer = () => {
 
         <div className="flex flex-col sm:pr-4">
           <Link
-            href="https://discord.com/invite/hlg"
+            href="https://discord.gg/vwcgqrJ3"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaDiscord className="text-4xl mb-2" />
           </Link>
 
-          <IoIosMail className="text-4xl"></IoIosMail>
+          <Link
+            href="https://linktr.ee/hlg_ucr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoIosMail className="text-4xl"></IoIosMail>
+          </Link>
         </div>
       </div>
     </div>
