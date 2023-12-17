@@ -1,10 +1,12 @@
+"use client";
 // import {links} from 'src/data/links.js';
 import Image from "next/image";
-import photo5 from "public/gaming.png";
 
 // icons here
 import { FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
+
+import { Toaster, toast } from "react-hot-toast";
 
 // displays a single staff element.
 const Staff = ({
@@ -12,7 +14,7 @@ const Staff = ({
   name = "name",
   discordlink = "none",
   emaillink = "none",
-  photo = { photo5 },
+  photo = "",
 }) => {
   return (
     <section className="mb-4">
@@ -23,20 +25,28 @@ const Staff = ({
         </div>
       </div>
 
-      <div className=" flex flex-row justify-left">
+      <div className="flex flex-row justify-left">
         <h5 className="rounded-3xl py-1.5 px-3.5 bg-blue-950 break-words inline-block text-center text-white font-normal">
           {name}
         </h5>
       </div>
 
-      <div className="flex flex-row pl-8">
+      <div className="flex flex-row pl-4">
         <div className="h-5 w-7 pt-1">
-          <a href={discordlink} target="_blank noreferrer">
+          <Toaster />
+          <a
+            href={discordlink}
+            onClick={(event) => {
+              event.preventDefault();
+              navigator.clipboard.writeText(discordlink);
+              toast("Discord username copied to clipboard! \u2705");
+            }}
+          >
             <FaDiscord className="w-full h-full text-amber-400" />
           </a>
         </div>
         <div className="h-7 w-6 pb-1">
-          <a href={emaillink} target="_blank noreferrer">
+          <a href={`mailto:${emaillink}`}>
             <IoIosMail className="w-full h-full text-amber-400" />
           </a>
         </div>
