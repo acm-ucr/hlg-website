@@ -3,9 +3,9 @@ import Event from "./Event";
 
 const Events = ({ eventsData }) => {
   return (
-    <div className="">
+    <div className="w-full ">
       <Heading text="Upcoming Events" />
-      <div className="w-full flex-col justify-center items-center space-y-7 mt-16 mb-16">
+      <div className="w-full flex-col flex justify-center items-center space-y-7 mt-16 mb-16">
         {eventsData
           .sort((a, b) => a.start - b.start)
           .slice(-4, -1)

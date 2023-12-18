@@ -9,7 +9,7 @@ const Event = ({
   color = "",
 }) => {
   return (
-    <div className="flex rounded-lg overflow-hidden lg:max-w-2xl md:max-w-lg sm:max-w-md ml-10 mr-10">
+    <div className="w-full flex rounded-lg overflow-hidden lg:max-w-2xl md:max-w-lg sm:max-w-md ml-10 mr-10">
       <div
         className={`${color} p-4 text-hlg-white text-center w-1/4 items-centerx flex flex-col justify-center`}
       >

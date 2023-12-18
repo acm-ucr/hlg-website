@@ -9,9 +9,15 @@ import Modal from "./Modal.jsx";
 import CustomHeader from "./CustomHeader.jsx";
 import Events from "./Events.jsx";
 
+import "./rbc-overrides.css";
+
 const localizer = momentLocalizer(moment);
 
-const colors = ["bg-hlg-orange", "bg-hlg-blue-100", "bg-hlg-yellow"];
+const colors = [
+  "bg-hlg-orange",
+  "bg-hlg-blue-100",
+  "bg-gradient-to-r from-hlg-black to-hlg-blue-300",
+];
 
 const CalendarEvent = ({ dumb }) => {
   const [date, setDate] = useState(new Date());
@@ -70,9 +76,9 @@ const CalendarEvent = ({ dumb }) => {
   }, [events]);
 
   return (
-    <div className="w-full h-full">
-      <div className="w-9/12 md:w-10/12 flex justify-center items-center text-base md:text-xl">
-        <div className="h-[90vh] md:h-[110vh] w-full relative text-base md:text-xl mb-24">
+    <div className="w-full">
+      <div className="w-full flex justify-center items-center text-base md:text-xl">
+        <div className="h-[110vh] md:h-[110vh] w-full relative text-base md:text-xl mb-24">
           <Calendar
             className="font-poppins w-full m-0 p-0 text-base md:text-xl"
             date={date}

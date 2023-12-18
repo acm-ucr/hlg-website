@@ -1,0 +1,18 @@
+.rbc-month-header {
+  background-image: linear-gradient(to right, #fb8500, #ffb703);
+}
+.rbc-off-range {
+  color: #15131e;
+}
+
+.rbc-date-cell.rbc-now {
+  font-weight: normal !important;
+}
+
+.rbc-calendar,
+.rbc-calendar *,
+.rbc-calendar *:before,
+.rbc-calendar *:after {
+  border: none !important;
+  box-shadow: none !important;
+}

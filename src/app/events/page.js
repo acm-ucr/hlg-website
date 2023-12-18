@@ -11,9 +11,12 @@ const events = () => {
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
       <div className="p-14" />
 
-      <Heading text="Calendar" />
-      <div className="flex items-center justify-center">
-        <CalendarEvent events={data} />
+      <div className="px-20 w-full flex flex-col justify-center items-center">
+        <Heading text="Calendar" />
+
+        <div className="flex w-full justify-center items-center">
+          <CalendarEvent events={data} />
+        </div>
       </div>
 
       <Slides />
