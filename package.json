@@ -13,6 +13,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "airtable": "^0.12.2",
+    "axios": "^1.6.2",
     "bootstrap": "^5.3.0",
     "immutability-helper": "^3.1.1",
     "next": "^13.5.3",
