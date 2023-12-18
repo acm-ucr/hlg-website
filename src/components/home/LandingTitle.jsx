@@ -1,5 +1,5 @@
 import * as React from "react";
-import Icon from "public/HLG-logo.webp";
+import Icon from "public/hlg-logo.webp";
 import Button from "src/components/Button";
 import Image from "next/image";
 
