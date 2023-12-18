@@ -1,5 +1,5 @@
 import LandingTitle from "@/components/home/LandingTitle";
-import Gaming from "public/gaming.png";
+import Gaming from "public/gaming.webp";
 import Image from "next/image";
 
 const Landing = () => {

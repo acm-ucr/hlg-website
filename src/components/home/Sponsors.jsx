@@ -1,19 +1,19 @@
 import Image from "next/image";
-import RedBull from "public/sponsors/red-bull.png";
-import ClipStudio from "public/sponsors/clip-studio.png";
-import Corsair from "public/sponsors/corsair.png";
-import EVGA from "public/sponsors/evga.png";
-import Gamdias from "public/sponsors/gamdias.png";
-// import Geng from "public/sponsors/geng.png";
-import Msi from "public/sponsors/msi.png";
-import Razor from "public/sponsors/razor.png";
-import Roccat from "public/sponsors/roccat.png";
-import Seasonic from "public/sponsors/seasonic.png";
-import Spectre from "public/sponsors/spectre.png";
-import TurtleBeach from "public/sponsors/turtle-beach.png";
-import WarnerBros from "public/sponsors/warner-bros.png";
-import Zotac from "public/sponsors/zotac.png";
-import GenG from "public/sponsors/geng.png";
+import RedBull from "public/sponsors/red-bull.webp";
+import ClipStudio from "public/sponsors/clip-studio.webp";
+import Corsair from "public/sponsors/corsair.webp";
+import EVGA from "public/sponsors/evga.webp";
+import Gamdias from "public/sponsors/gamdias.webp";
+// import Geng from "public/sponsors/geng.webp";
+import Msi from "public/sponsors/msi.webp";
+import Razor from "public/sponsors/razor.webp";
+import Roccat from "public/sponsors/roccat.webp";
+import Seasonic from "public/sponsors/seasonic.webp";
+import Spectre from "public/sponsors/spectre.webp";
+import TurtleBeach from "public/sponsors/turtle-beach.webp";
+import WarnerBros from "public/sponsors/warner-bros.webp";
+import Zotac from "public/sponsors/zotac.webp";
+import GenG from "public/sponsors/geng.webp";
 
 const Sponsors = () => {
   return (
