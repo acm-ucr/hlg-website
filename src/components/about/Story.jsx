@@ -1,4 +1,4 @@
-import RegistrationLine from "../../../public/registration-line.png";
+import RegistrationLine from "../../../public/registration-line.webp";
 import Image from "next/image";
 import Heading from "@/components/Heading";
 

@@ -1,4 +1,4 @@
-import photo from "public/prize-winners.png";
+import photo from "public/prize-winners.webp";
 import Image from "next/image";
 import Heading from "src/components/Heading.jsx";
 

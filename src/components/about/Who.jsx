@@ -1,4 +1,4 @@
-import prizes from "public/prizes.png";
+import prizes from "public/prizes.webp";
 import Image from "next/image";
 import Heading from "src/components/Heading.jsx";
 

@@ -1,4 +1,4 @@
-import Image from "public/gaming.png";
+import Image from "public/gaming.webp";
 
 const execboard = [
   {
