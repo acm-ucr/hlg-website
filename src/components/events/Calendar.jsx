@@ -25,7 +25,6 @@ const CalendarEvent = () => {
   const [event, setEvent] = useState(null);
   const [events, setEvents] = useState([]);
 
-  console.log(process.env.NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN);
   const base = new Airtable({
     apiKey: process.env.NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN,
   }).base(process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID);
