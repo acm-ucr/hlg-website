@@ -5,13 +5,21 @@ import Image from "next/image";
 
 const LandingTitle = () => {
   return (
-    <div className="flex items-start">
-      <Image src={Icon} alt="Icon" width={100} height={100} />
+    <div className="flex justify-center items-start">
+      <Image src={Icon} alt="Icon" className="w-1/2 sm:w-1/5" />
       <div className="flex-col pt-4">
-        <p className="text-hlg-white font-bold md:text-3xl items-center m-0 flex space-y-2">
+        {/* desktop */}
+        <p className="text-hlg-white md:block  hidden font-bold text-4xl m-0  space-y-2">
           HIGHLANDER GAMING
         </p>
-        <p className="text-hlg-yellow text-sm items-center m-0 flex space-y-2">
+        <p className="text-hlg-yellow md:block  hidden text-lg m-0 space-y-2">
+          at University of California
+        </p>
+        {/* mobile */}
+        <p className="text-hlg-white md:hidden font-bold text-xs m-0  space-y-2">
+          HIGHLANDER GAMING
+        </p>
+        <p className="text-hlg-yellow md:hidden  text-sm m-0 space-y-2">
           at University of California
         </p>
         <div className="pt-4"></div>
