@@ -22,16 +22,19 @@ const Slides = () => {
   return (
     <div className="select-none flex-col">
       <Heading text="Past Events" />
-      <div className=" flex justify-center gap-20 items-center">
+      <div className="pt-4" />
+
+      <div className=" flex justify-center sm:gap-20 items-center">
         <AiOutlineArrowLeft
           size={50}
           className="cursor-pointer text-xl"
           onClick={prevImage}
         />
-        <div className="flex  flex-col w-1/2">
-          <div className="text-lg pt-4 flex-none">
-            <p className="select-none m-0 p-0">HighlanderCon</p>
-          </div>
+        <div className="md:hidden p-1" /> {/* mobile spacing */}
+        <div className="flex  flex-col ">
+          <p className="select-none text-lg m-0 pl-2 pr-0 py-0">
+            HighlanderCon
+          </p>
           <div className="relative flex-grow">
             <Image
               src={images[currentImageIndex].src}
@@ -41,7 +44,7 @@ const Slides = () => {
             />
           </div>
         </div>
-
+        <div className="md:hidden p-1" /> {/* mobile spacing */}
         <AiOutlineArrowRight
           size={50}
           className="cursor-pointer text-xl"

@@ -9,9 +9,9 @@ const events = () => {
     <div>
       <title>HLG | Events</title>
       <Banner YellowText={"CHECK"} WhiteText={"OUR EVENTS"} />
-      <div className="p-14" />
+      <div className="py-20" />
 
-      <div className="px-20 w-full flex flex-col justify-center items-center">
+      <div className="w-full flex flex-col justify-center items-center">
         <Heading text="Calendar" />
 
         <div className="flex w-full justify-center items-center">

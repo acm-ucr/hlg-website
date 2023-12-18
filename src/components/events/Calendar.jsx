@@ -78,7 +78,7 @@ const CalendarEvent = ({ dumb }) => {
   return (
     <div className="w-full">
       <div className="w-full flex justify-center items-center text-base md:text-xl">
-        <div className="h-[110vh] md:h-[110vh] w-full relative text-base md:text-xl mb-24">
+        <div className="h-[110vh] md:h-[110vh] w-11/12 relative text-base md:text-xl mb-24">
           <Calendar
             className="font-poppins w-full m-0 p-0 text-base md:text-xl"
             date={date}
