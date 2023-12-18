@@ -1,6 +1,5 @@
 import Banner from "@/components/Banner";
 import CalendarEvent from "@/components/events/Calendar";
-import data from "@/data/events";
 import Slides from "@/components/events/Slides";
 import Heading from "@/components/Heading";
 
@@ -15,7 +14,7 @@ const events = () => {
         <Heading text="Calendar" />
 
         <div className="flex w-full justify-center items-center">
-          <CalendarEvent events={data} />
+          <CalendarEvent />
         </div>
       </div>
 

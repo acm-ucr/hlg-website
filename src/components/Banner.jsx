@@ -13,14 +13,14 @@ const Banner = ({ YellowText, WhiteText }) => {
         "
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 45%)" }}
       >
-        <div className="h-full w-full flex md:justify-start justify-center items-center">
+        <div className="h-full w-full flex lg:justify-start justify-center items-center">
           <div className="flex-col justify-center items-center h-1/2 md:w-3/4 md:h-1/2">
             <div className="p-2 md:invisible"></div>
             <div className="flex gap-2 items-center justify-center">
-              <div className="text-hlg-yellow font-bold sm:text-4xl">
+              <div className="text-hlg-yellow font-bold sm:text-2xl lg:text-4xl">
                 {YellowText}
               </div>
-              <div className="text-hlg-white text-md sm:text-4xl font-bold">
+              <div className="text-hlg-white sm:text-2xl lg:text-4xl font-bold">
                 {WhiteText}
               </div>
             </div>

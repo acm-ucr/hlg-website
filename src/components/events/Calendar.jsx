@@ -8,6 +8,7 @@ import moment from "moment";
 import Modal from "./Modal.jsx";
 import CustomHeader from "./CustomHeader.jsx";
 import Events from "./Events.jsx";
+import Airtable from "airtable";
 
 import "./rbc-overrides.css";
 
@@ -19,16 +20,15 @@ const colors = [
   "bg-gradient-to-r from-hlg-black to-hlg-blue-300",
 ];
 
-const CalendarEvent = ({ dumb }) => {
+const CalendarEvent = () => {
   const [date, setDate] = useState(new Date());
   const [event, setEvent] = useState(null);
   const [events, setEvents] = useState([]);
 
-  const Airtable = require("airtable");
+  console.log(process.env.NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN);
   const base = new Airtable({
-    apiKey:
-      "patyzG2qGUJ619c8U.73b380b45a279e9530cfeef6f08493567368a2d9b76bc6ee7055796581d81844",
-  }).base("appu0ikUmeM0YkkZB");
+    apiKey: process.env.NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN,
+  }).base(process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID);
 
   useEffect(() => {
     base("Events")
