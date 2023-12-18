@@ -1,15 +1,15 @@
-import prizes from "public/prizes.png";
+import prizes from "public/prizes.webp";
 import Image from "next/image";
 import Heading from "src/components/Heading.jsx";
 
 const Who = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="px-10 flex flex-col items-center">
       <Heading text={"Who We Are"} />
 
       <div className="py-2" />
 
-      <div className="max-w-screen-md text-center mt-4">
+      <div className="max-w-screen-md text-center mt-4 mb-28">
         <p>
           Founded in April 2012, Highlander Gaming is a social club at the
           University of California, Riverside whose aim is to promote and

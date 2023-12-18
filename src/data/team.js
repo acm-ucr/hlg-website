@@ -1,8 +1,8 @@
-import Graves from "public/team/graves.png";
-import Mordekaiser from "public/team/mordekaiser.png";
-import Gragas from "public/team/gragas.png";
-import Aphelios from "public/team/aphelios.png";
-import Rell from "public/team/rell.png";
+import Graves from "public/team/graves.webp";
+import Mordekaiser from "public/team/mordekaiser.webp";
+import Gragas from "public/team/gragas.webp";
+import Aphelios from "public/team/aphelios.webp";
+import Rell from "public/team/rell.webp";
 export const team = [
   {
     name: 'Brogan "dont play top" McCoy',

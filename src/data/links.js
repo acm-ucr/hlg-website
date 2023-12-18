@@ -15,7 +15,7 @@ export const links = [
   {
     text: "Discord",
     icon: <FaDiscord />,
-    link: "https://discord.com/invite/hlg",
+    link: "https://discord.gg/vwcgqrJ3",
   },
 
   {

@@ -5,8 +5,6 @@ export default [
     id: 1,
     type: 3,
     title: "Meeting",
-    location: "http://zoom.us",
-    link: "http://zoom.us",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     color: "bg-hlg-blue-100",
@@ -34,6 +32,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     color: "bg-hlg-blue-100",
+
     start: new Date(2023, 10, 6, 12, 0, 0),
     end: new Date(2023, 10, 6, 13, 0, 0),
   },

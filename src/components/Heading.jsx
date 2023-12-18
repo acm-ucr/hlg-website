@@ -6,7 +6,7 @@ const Heading = ({ text }) => {
       <Image className="h-9" src={photo} />
 
       <div className="flex-col">
-        <div className="text-3xl font-medium">{text}</div>
+        <div className="sm:text-3xl text-2xl font-medium">{text}</div>
         <div className="py-1" />
 
         <div className="flex justify-center">

@@ -41,3 +41,6 @@ jobs:
           node-version: "16.14.2"
       - run: npm ci
       - run: npm run build
+    env:
+      NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN: ${{ secrets.NEXT_PUBLIC_AIRTABLE_BEARER_TOKEN }}
+      NEXT_PUBLIC_AIRTABLE_BASE_ID: ${{ secrets.NEXT_PUBLIC_AIRTABLE_BASE_ID }}
