@@ -21,7 +21,6 @@ const Sponsors = () => {
       <p className="text-hlg-black ">Partnered with</p>
       <Image src={GenG} className="w-1/4 xl:w-2/12" />
 
-      <div className="py-5"></div>
       <div className="xl:py-16 2xl:py-16"></div>
       <p className="text-hlg-black ">Previously Sponsored By</p>
       <div className="p-1" />

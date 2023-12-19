@@ -16,7 +16,7 @@ const Landing = () => {
         "
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 55%)" }}
       >
-        <div className="flex md:justify-start md:items-start justify-center items-center h-1/2 lg:h-1/2 sm:h-3/4">
+        <div className="flex md:justify-start md:items-start justify-center items-center md:mb-20 mt-10 h-1/2 lg:h-1/2 sm:h-3/4">
           <LandingTitle />
         </div>
       </div>

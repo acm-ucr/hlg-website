@@ -42,7 +42,7 @@ const Navigation = () => {
               key={index}
               href={item.link}
               onClick={() => setSelected(item.name)}
-              className="hover:cursor-pointer -mb-1 px-4 !text-hlg-white whitespace-nowrap "
+              className="hover:cursor-pointer -mb-1 px-4 !text-hlg-white whitespace-nowrap transform transition duration-500 ease-in-out hover:scale-105 "
             >
               <div className="flex-col items-center">
                 <div>{item.name}</div>

@@ -17,20 +17,22 @@ const staff = () => {
           return (
             <div key={index}>
               <Heading text={department.name} />
-              <div className="flex flex-wrap justify-center gap-2 py-20">
-                {department.members.map((officer, index) => {
-                  return (
-                    <div key={index}>
-                      <Staff
-                        posname={officer.posname}
-                        name={officer.name}
-                        discordlink={officer.discordlink}
-                        emaillink={officer.emaillink}
-                        photo={""}
-                      />
-                    </div>
-                  );
-                })}
+              <div className="w-full flex justify-center">
+                <div className="w-1/2 flex flex-wrap justify-center gap-2 pt-4 pb-8">
+                  {department.members.map((officer, index) => {
+                    return (
+                      <div key={index}>
+                        <Staff
+                          posname={officer.posname}
+                          name={officer.name}
+                          discordlink={officer.discordlink}
+                          emaillink={officer.emaillink}
+                          photo={""}
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           );

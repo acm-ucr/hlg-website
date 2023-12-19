@@ -24,6 +24,7 @@ const Footer = () => {
             href="https://discord.gg/vwcgqrJ3"
             target="_blank"
             rel="noopener noreferrer"
+            className="transform transition duration-500 ease-in-out hover:scale-105"
           >
             <FaDiscord className="text-4xl mb-2" />
           </Link>
@@ -32,6 +33,7 @@ const Footer = () => {
             href="https://linktr.ee/hlg_ucr"
             target="_blank"
             rel="noopener noreferrer"
+            className="transform transition duration-500 ease-in-out hover:scale-105"
           >
             <IoIosMail className="text-4xl"></IoIosMail>
           </Link>

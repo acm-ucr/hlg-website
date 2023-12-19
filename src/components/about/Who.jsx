@@ -7,9 +7,7 @@ const Who = () => {
     <div className="px-10 flex flex-col items-center">
       <Heading text={"Who We Are"} />
 
-      <div className="py-2" />
-
-      <div className="max-w-screen-md text-center mt-4 mb-28">
+      <div className="max-w-screen-md text-center mt-4 mb-4">
         <p>
           Founded in April 2012, Highlander Gaming is a social club at the
           University of California, Riverside whose aim is to promote and

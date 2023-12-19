@@ -13,7 +13,7 @@ const Modal = ({ event, setEvent }) => {
         </p>
         <AiOutlinePlus
           onClick={() => setEvent(null)}
-          className="text-acm-black rotate-45 p-0 hover:scale-110 duration-300 hover:cursor-pointer text-3xl m-3"
+          className="text-hlg-white rotate-45 p-0 hover:scale-[1.3] duration-300 hover:cursor-pointer text-3xl m-3"
         />
       </div>
       <div className="p-3">
