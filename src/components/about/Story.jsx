@@ -7,8 +7,6 @@ const Story = () => {
     <div className="px-10 flex flex-col justify-center items-center text-center text-base ">
       <Heading text={"Our Story"} />
 
-      <div className="py-2" />
-
       <div className="max-w-screen-md flex-col justify-center text-center mt-4">
         <p className=" text-hlg-black text-center ">
           Highlanger Gaming began as &quot;Esports at UCR&quot; in 2012 with a

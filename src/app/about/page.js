@@ -10,7 +10,7 @@ const about = () => {
       <div className="p-14" />
 
       <Who />
-      <div className="py-5" />
+      <div className="py-8" />
       <Story />
     </div>
   );
