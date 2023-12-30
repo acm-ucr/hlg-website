@@ -1,8 +1,8 @@
-import jinx from "public/team/varsity/Jinx.jpg";
-import karma from "public/team/varsity/Karma.jpg";
-import malphite from "public/team/varsity/Malphite.jpg";
-import nocturne from "public/team/varsity/Nocturne.jpg";
-import zed from "public/team/varsity/Zed.jpg";
+import jinx from "public/team/varsity/Jinx.webp";
+import karma from "public/team/varsity/Karma.webp";
+import malphite from "public/team/varsity/Malphite.webp";
+import nocturne from "public/team/varsity/Nocturne.webp";
+import zed from "public/team/varsity/Zed.webp";
 export const team = [
   {
     name: 'Brogan "HDAMFN" McCoy',
