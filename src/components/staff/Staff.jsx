@@ -28,7 +28,7 @@ const Staff = ({
         </div>
       </div>
 
-      <div className="flex flex-col justify-left rounded-lg bg-blue-950">
+      <div className="flex flex-col justify-left rounded-lg bg-hlg-blue-300">
         <h5 className="rounded-3xl py-1.5 px-3.5  break-words inline-block text-center text-white font-normal">
           {name}
         </h5>
