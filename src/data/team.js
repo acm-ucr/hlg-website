@@ -1,23 +1,23 @@
-import Graves from "public/team/graves.webp";
-import Mordekaiser from "public/team/mordekaiser.webp";
-import Gragas from "public/team/gragas.webp";
-import Aphelios from "public/team/aphelios.webp";
-import Rell from "public/team/rell.webp";
+import jinx from "public/team/varsity/Jinx.jpg";
+import karma from "public/team/varsity/Karma.jpg";
+import malphite from "public/team/varsity/Malphite.jpg";
+import nocturne from "public/team/varsity/Nocturne.jpg";
+import zed from "public/team/varsity/Zed.jpg";
 export const team = [
   {
-    name: 'Brogan "dont play top" McCoy',
-    image: Mordekaiser,
-    year: "2",
+    name: 'Brogan "HDAMFN" McCoy',
+    image: malphite,
+    year: "3",
     position: "Top",
-    champion: "Mordekaiser",
+    champion: "Whatsapp Malphite",
     color: "hlg-orange",
     colorInitial: "from-hlg-orange",
     colorGradient: "to-hlg-yellow",
   },
   {
     name: 'Matthew "GetTurtled" Nguyen',
-    image: Graves,
-    year: "3",
+    image: nocturne,
+    year: "4",
     position: "JG",
     champion: "Graves",
     color: "hlg-blue-100",
@@ -26,7 +26,7 @@ export const team = [
   },
   {
     name: 'Jake "LDCs" Han',
-    image: Gragas,
+    image: zed,
     year: "4",
     position: "Mid",
     champion: "Gragas",
@@ -36,7 +36,7 @@ export const team = [
   },
   {
     name: 'Andre "GALAMODE" Amante',
-    image: Aphelios,
+    image: jinx,
     year: "4",
     position: "Bot/ADC",
     champion: "Aphelios",
@@ -46,7 +46,7 @@ export const team = [
   },
   {
     name: 'Chrisian "SlyLego" Tran',
-    image: Rell,
+    image: karma,
     year: "4",
     position: "Supp",
     champion: "Rell",

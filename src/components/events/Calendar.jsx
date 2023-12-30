@@ -14,12 +14,6 @@ import "./rbc-overrides.css";
 
 const localizer = momentLocalizer(moment);
 
-const colors = [
-  "bg-hlg-orange",
-  "bg-hlg-blue-100",
-  "bg-gradient-to-r from-hlg-black to-hlg-blue-300",
-];
-
 const CalendarEvent = () => {
   const [date, setDate] = useState(new Date());
   const [event, setEvent] = useState(null);
@@ -49,10 +43,9 @@ const CalendarEvent = () => {
               location: record.get("Where"),
               start: start,
               end: end,
-              color: colors[index % 3],
+              color: "bg-hlg-blue-100",
             };
           });
-          console.log(newEvents);
 
           setEvents(newEvents);
 
